@@ -1,4 +1,27 @@
-.headline {
-    color: yellow;
+#headline {
+    color: blue;
+    background: url('../css/images/stockholm.png') no-repeat center center;
+    background-size: auto;
+    background-size: 1200px 800px;
+    padding-top: 50px;
+}
 
+
+#navmeny {
+    height: 50px;
+    font-size: 120%;
+    letter-spacing: 1px;
+    background-color: aqua;
+    padding: 50px;
+}
+
+#myNavbar{
+    margin-right: 10px;
+    padding: 10px;
+}
+
+#footer{
+    background-color:rgb(10, 10, 10);
+    padding-top: 50px;
+    margin-top: 50px;
 }
