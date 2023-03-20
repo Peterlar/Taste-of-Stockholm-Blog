@@ -10,9 +10,10 @@
     text-align: center;
 }
 
-.button {
-    width: 150px;
+.card-title{
+    text-align: center;
 }
+
 
 #footer{
     background-color:rgb(32, 31, 31);
