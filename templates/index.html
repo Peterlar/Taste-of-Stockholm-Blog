@@ -1,36 +1,49 @@
 {% extends "base.html" %}
 
 {% block content %}
-
   
-<div id="headline" class="container-fluid bg-3 text-center">    
-  <h3>Visit some of Stockholms popular resturants!</h3><br>
-  <div class="card" style="width: 10rem;">
-    <img class="card-img-top" src="../static/css/images/res-AG.png" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">Resturant AG</h5>
-      <a href="#" class="btn btn-primary">Click Here</a>
-    </div>
-    <div class="card" style="width: 10rem;">
-      <img class="card-img-top" src="../static/css/images/sushi sho.png" alt="Card image cap">
-      <div class="card-body">
-        <h5 class="card-title">Sushi Sho</h5>
-        <a href="#" class="btn btn-primary">Click Here</a>
-      </div>
-      <div class="card" style="width: 10rem;">
-        <img class="card-img-top" src="../static/css/images/lilla ego.png" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Lilla Ego</h5>
-          <a href="#" class="btn btn-primary">Click Here</a>
-        </div>
-        <div class="card" style="width: 10rem;">
-          <img class="card-img-top" src="../static/css/images/Spesso.png" alt="Card image cap">
-          <div class="card-body">
-            <h5 class="card-title">Spesso</h5>
-            <a href="#" class="btn btn-primary">Click Here</a>
+<body>
+<div id="headline">
+  <h1 class="headline-landingpage">Experience a taste journey in Stockholm</h1>
+  <div class="py-5">
+    <div class="container">
+      <div class="row hidden-md-up">
+        <div class="col-md-4">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="../static/css/images/res-AG.png" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Resturang AG</h4>
+              <p class="card-text p-y-1">Some quick example text to build on the card title .</p>
+              <a href="#" class="btn btn-primary">Click Here</a>
+            </div>
           </div>
-  </div>
-</div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="../static/css/images/Spesso.png" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Spesso</h4>
+              <p class="card-text p-y-1">Some quick example text to build on the card title .</p>
+              <a href="#" class="btn btn-primary">Click Here</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card" style="width: 20rem;">
+            <img class="card-img-top" src="../static/css/images/sushi sho.png" alt="Card image cap">
+            <div class="card-block">
+              <h4 class="card-title">Sushi Sho</h4>
+              <p class="card-text p-y-1">Some quick example text to build on the card title .</p>
+              <a href="#" class="btn btn-primary">Click Here</a>
+            </div>
+          </div>
+        </div>
+      </div><br>
+    </div>    
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script>
+  <script src="https://pingendo.com/assets/bootstrap/bootstrap-4.0.0-alpha.6.min.js"></script>
+</body>
 
 {% endblock content %}
 
