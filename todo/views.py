@@ -14,3 +14,11 @@ class PostList(generic.ListView):
 
 def index(request):
     return render(request, 'index.html', {})
+
+
+def ag(request):
+    return render(request, 'ag.html', {})
+
+
+def spesso(request):
+    return render(request, 'spesso.html', {})
